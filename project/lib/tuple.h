@@ -16,7 +16,7 @@ public:
 
     Tuple<T>& operator=(const Tuple<T>&);
     Tuple<T>& operator=(Tuple<T>&&);
-    Tuple<T>& operator+(const Tuple<T>&);
+    Tuple<T> operator+(const Tuple<T>&);
     T& operator[](unsigned);
 
     unsigned get_size();

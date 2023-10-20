@@ -47,7 +47,7 @@ Tuple<T>& Tuple<T>::operator=(Tuple<T>&& other) {
 }
 
 template <typename T>
-Tuple<T>& Tuple<T>::operator+(const Tuple<T>& other) {
+Tuple<T> Tuple<T>::operator+(const Tuple<T>& other) {
     if (this->size != other.size)
         return *this;
     Tuple<T> sub_tuple(other);

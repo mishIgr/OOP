@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.25)
+project(MainProject)
+add_executable(main main.cpp)
+add_subdirectory(lib)
+target_link_libraries(main game_lib)

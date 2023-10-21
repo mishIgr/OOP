@@ -2,6 +2,7 @@
 #define field_h
 
 #include "cell.h"
+#include "tuple.h"
 
 class Field {
 
@@ -31,6 +32,9 @@ public:
     unsigned get_height();
 
     Cell& get_cell(unsigned, unsigned);
+    Cell& get_cell(Tuple<unsigned, 2>);
+
+    Tuple<unsigned, 2> get_tuple(unsigned, unsigned);
 };
 
 #endif

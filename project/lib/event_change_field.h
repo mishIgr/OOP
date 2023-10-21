@@ -3,12 +3,23 @@
 
 #include "event.h"
 #include "field.h"
+#include "tuple.h"
 
 class EventChangeField : public IEvent {
+
+    Tuple<unsigned, 2>* change_possability;
+    size_t size;
+    EventChangeField(const EventChangeField&);
+
 public:
-    void event(Field& field) {
-        field.get_cell(0, 0).set_passability(!field.get_cell(0, 0).is_passability());
-    }
+
+    EventChangeField();
+    ~EventChangeField();
+
+    void set_event(Tuple<unsigned, 2>*, size_t);
+    void event(Field& field);
+
+    EventChangeField* copy();
 };
 
 #endif

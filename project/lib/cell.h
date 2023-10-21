@@ -5,13 +5,15 @@
 
 class Cell {
 
-    // Event* event;
+    IEvent* event;
     bool flag_passability;
 
 public:
 
     Cell();
     Cell(bool);
+    Cell(IEvent*);
+    Cell(bool, IEvent*);
     Cell(const Cell&);
     Cell(Cell&&);
 
@@ -21,7 +23,7 @@ public:
     void set_passability(bool);
     bool is_passability();
 
-    // void set_event(event*);
+    void set_event(IEvent*);
 
 };
 

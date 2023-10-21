@@ -4,18 +4,18 @@
 #include "field.h"
 #include <algorithm>
 
-Field::Field() : Field(2, 2) {}
+Field::Field() : Field(4, 4) {}
 
 Field::Field(unsigned width, unsigned height) {
-    this->height = height > 1 ? height : 2;
-    this->width = width > 1 ? width : 2;
+    this->height = height > 1 ? height : 4;
+    this->width = width > 1 ? width : 4;
 
     this->field = new Cell*[this->height];
     for (int y = 0; y < this->height; ++y)
         this->field[y] = new Cell[this->width];
         
-    this->entrance = this->field[0];
-    this->exit = this->field[this->height - 1] + this->width - 1;
+    this->entrance = this->field[2] + 2;
+    this->exit = this->field[this->height - 3] + this->width - 3;
 }
 
 Field::Field(unsigned width, unsigned height, Cell** arr) : Field(width, height) {
@@ -63,9 +63,16 @@ unsigned Field::get_width() { return this->width; }
 unsigned Field::get_height() { return this->height; }
 
 Cell& Field::get_cell(unsigned y, unsigned x) {
-    y = y % this->height;
-    x = x % this->width;
     return this->field[y][x];
+}
+
+Cell& Field::get_cell(Tuple<unsigned, 2> coord) {
+    return this->field[coord[1]][coord[0]];
+}
+
+Tuple<unsigned, 2> Field::get_tuple(unsigned x, unsigned y) {
+    Tuple<unsigned, 2> ret(x, y);
+    return ret;
 }
 
 #endif

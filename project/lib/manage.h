@@ -3,7 +3,7 @@
 
 #include "player.h"
 #include "field.h"
-
+#include "tuple.h"
 
 enum Direct {
     UP,
@@ -20,13 +20,14 @@ class Manage {
 
     Player& player;
     Field& field;
-    int x;
-    int y;
+    Tuple<unsigned, 2> coord;
+
 
 public:
 
     Manage(Player&, Field&);
     Manage(Player&, Field&, unsigned, unsigned);
+    Manage(Player&, Field&, Tuple<unsigned, 2>);
 
     bool move(Direct);
 

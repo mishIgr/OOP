@@ -3,7 +3,10 @@
 
 class IEvent {
 public:
-    virtual void event();
+
+    virtual void event() = 0;
+    virtual IEvent* copy() = 0;
+
 };
 
 #endif

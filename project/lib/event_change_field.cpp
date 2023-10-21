@@ -1,5 +1,5 @@
-#ifndef change_cpp
-#define change_cpp
+#ifndef event_change_field_cpp
+#define event_change_field_cpp
 
 #include "event_change_field.h"
 
@@ -28,7 +28,12 @@ void EventChangeField::set_event(Tuple<unsigned, 2>* change_possability, size_t 
         std::copy(change_possability, change_possability + size, this->change_possability);
 }
 
-void EventChangeField::event(Field& field) {}
+void EventChangeField::event(Field& field) {
+    for (size_t i = 0; i < this->size; ++i) {
+        Cell& c = field.get_cell(this->change_possability[i]);
+        c.set_passability(!c.is_passability());
+    }
+}
 
 EventChangeField* EventChangeField::copy() {
     return new EventChangeField(*this);

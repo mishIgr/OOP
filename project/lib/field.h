@@ -28,13 +28,13 @@ public:
     Field& operator=(const Field&);
     Field& operator=(Field&&);
 
-    unsigned get_width();
-    unsigned get_height();
+    unsigned get_width() const;
+    unsigned get_height() const;
 
-    Cell& get_cell(unsigned, unsigned);
-    Cell& get_cell(Tuple<unsigned, 2>);
+    Cell& get_cell(unsigned, unsigned) const;
+    Cell& get_cell(Tuple<unsigned, 2>) const;
 
-    Tuple<unsigned, 2> get_tuple(unsigned, unsigned);
+    Tuple<unsigned, 2> get_tuple(unsigned, unsigned) const;
 };
 
 #endif

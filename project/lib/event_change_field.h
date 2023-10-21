@@ -1,5 +1,5 @@
-#ifndef change_h
-#define change_h
+#ifndef event_change_field_h
+#define event_change_field
 
 #include "event.h"
 #include "field.h"
@@ -17,7 +17,7 @@ public:
     ~EventChangeField();
 
     void set_event(Tuple<unsigned, 2>*, size_t);
-    void event(Field& field);
+    void event(Field&);
 
     EventChangeField* copy();
 };

@@ -16,12 +16,13 @@ public:
     Cell(bool, IEvent*);
     Cell(const Cell&);
     Cell(Cell&&);
+    ~Cell();
 
     Cell& operator=(const Cell&);
     Cell& operator=(Cell&&);
 
     void set_passability(bool);
-    bool is_passability();
+    bool is_passability() const;
 
     void set_event(IEvent*);
 

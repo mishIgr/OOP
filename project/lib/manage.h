@@ -19,7 +19,7 @@ enum Direct {
 class Manage {
 
     Player& player;
-    Field& field;
+    const Field& field;
     Tuple<unsigned, 2> coord;
 
 

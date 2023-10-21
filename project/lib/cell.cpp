@@ -21,10 +21,12 @@ Cell::Cell(Cell&& other) {
     std::swap(this->event, other.event);
 }
 
+Cell::~Cell() { delete this->event; }
+
 Cell& Cell::operator=(const Cell& other) {
     if (this == &other)
         return *this;
-        
+
     Cell tmp(other);
     std::swap(this->flag_passability, tmp.flag_passability);
     std::swap(this->event, tmp.event);
@@ -41,6 +43,6 @@ Cell& Cell::operator=(Cell&& other) {
 }
 
 void Cell::set_passability(bool flag_possability) { this->flag_passability = flag_possability; }
-bool Cell::is_passability() { return this->flag_passability; }
+bool Cell::is_passability() const { return this->flag_passability; }
 
 #endif

@@ -11,11 +11,11 @@ public:
     Player();
     Player(unsigned, unsigned);
 
-    unsigned get_life();
+    unsigned get_life() const;
     void set_life(unsigned);
-    bool is_alive();
+    bool is_alive() const;
 
-    unsigned get_double_jump();
+    unsigned get_double_jump() const;
     void set_double_jump(unsigned);
 };
 

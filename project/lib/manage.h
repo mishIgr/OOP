@@ -20,14 +20,14 @@ class Manage {
 
     Player& player;
     const Field& field;
-    Tuple<unsigned, 2> coord;
+    Tuple<unsigned> coord;
 
 
 public:
 
     Manage(Player&, Field&);
     Manage(Player&, Field&, unsigned, unsigned);
-    Manage(Player&, Field&, Tuple<unsigned, 2>);
+    Manage(Player&, Field&, Tuple<unsigned>);
 
     bool move(Direct);
 

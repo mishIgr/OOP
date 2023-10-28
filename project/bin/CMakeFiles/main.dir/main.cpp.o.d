@@ -153,4 +153,14 @@ CMakeFiles/main.dir/main.cpp.o: /home/mikhail/OOP_lab/project/main.cpp \
  /home/mikhail/OOP_lab/project/lib/field.h \
  /home/mikhail/OOP_lab/project/lib/cell.h \
  /home/mikhail/OOP_lab/project/lib/event.h \
- /home/mikhail/OOP_lab/project/lib/tuple.h
+ /home/mikhail/OOP_lab/project/lib/tuple.h /usr/include/c++/12/algorithm \
+ /usr/include/c++/12/bits/stl_algo.h \
+ /usr/include/c++/12/bits/algorithmfwd.h \
+ /usr/include/c++/12/bits/stl_heap.h \
+ /usr/include/c++/12/bits/stl_tempbuf.h \
+ /usr/include/c++/12/bits/uniform_int_dist.h \
+ /usr/include/c++/12/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/12/pstl/execution_defs.h \
+ /home/mikhail/OOP_lab/project/lib/event_change_field.h \
+ /home/mikhail/OOP_lab/project/lib/event_jump.h \
+ /home/mikhail/OOP_lab/project/lib/event_change_xp.h

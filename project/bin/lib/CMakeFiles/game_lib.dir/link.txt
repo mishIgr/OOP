@@ -1,2 +1,2 @@
-/usr/bin/ar qc libgame_lib.a CMakeFiles/game_lib.dir/tuple.cpp.o CMakeFiles/game_lib.dir/field.cpp.o CMakeFiles/game_lib.dir/cell.cpp.o CMakeFiles/game_lib.dir/manage.cpp.o CMakeFiles/game_lib.dir/player.cpp.o
+/usr/bin/ar qc libgame_lib.a CMakeFiles/game_lib.dir/field.cpp.o CMakeFiles/game_lib.dir/cell.cpp.o CMakeFiles/game_lib.dir/manage.cpp.o CMakeFiles/game_lib.dir/player.cpp.o CMakeFiles/game_lib.dir/event_change_field.cpp.o CMakeFiles/game_lib.dir/event_jump.cpp.o CMakeFiles/game_lib.dir/event_change_xp.cpp.o
 /usr/bin/ranlib libgame_lib.a

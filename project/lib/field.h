@@ -1,6 +1,7 @@
 #ifndef field_h
 #define field_h
 
+#include <initializer_list>
 #include "cell.h"
 #include "tuple.h"
 
@@ -32,9 +33,8 @@ public:
     unsigned get_height() const;
 
     Cell& get_cell(unsigned, unsigned) const;
-    Cell& get_cell(Tuple<unsigned, 2>) const;
-
-    Tuple<unsigned, 2> get_tuple(unsigned, unsigned) const;
+    Cell& get_cell(Tuple<unsigned>) const;
+    
 };
 
 #endif

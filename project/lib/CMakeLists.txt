@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.25)
 project(Lib)
 add_library(
     game_lib
-    field.cpp cell.cpp manage.cpp player.cpp event_change_field.cpp
-    tuple.h field.h cell.h manage.h player.h event.h event_change_field.h game.h
+    field.cpp cell.cpp manage.cpp player.cpp event_change_field.cpp event_jump.cpp event_change_xp.cpp
+    tuple.h field.h cell.h manage.h player.h event.h event_change_field.h event_jump.h event_change_xp.h game.h
 )
 target_include_directories(
     game_lib PUBLIC

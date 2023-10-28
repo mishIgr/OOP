@@ -154,6 +154,78 @@ cell.cpp.s:
 	cd /home/mikhail/OOP_lab/project/bin && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/game_lib.dir/build.make lib/CMakeFiles/game_lib.dir/cell.cpp.s
 .PHONY : cell.cpp.s
 
+event_change_field.o: event_change_field.cpp.o
+.PHONY : event_change_field.o
+
+# target to build an object file
+event_change_field.cpp.o:
+	cd /home/mikhail/OOP_lab/project/bin && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/game_lib.dir/build.make lib/CMakeFiles/game_lib.dir/event_change_field.cpp.o
+.PHONY : event_change_field.cpp.o
+
+event_change_field.i: event_change_field.cpp.i
+.PHONY : event_change_field.i
+
+# target to preprocess a source file
+event_change_field.cpp.i:
+	cd /home/mikhail/OOP_lab/project/bin && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/game_lib.dir/build.make lib/CMakeFiles/game_lib.dir/event_change_field.cpp.i
+.PHONY : event_change_field.cpp.i
+
+event_change_field.s: event_change_field.cpp.s
+.PHONY : event_change_field.s
+
+# target to generate assembly for a file
+event_change_field.cpp.s:
+	cd /home/mikhail/OOP_lab/project/bin && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/game_lib.dir/build.make lib/CMakeFiles/game_lib.dir/event_change_field.cpp.s
+.PHONY : event_change_field.cpp.s
+
+event_change_xp.o: event_change_xp.cpp.o
+.PHONY : event_change_xp.o
+
+# target to build an object file
+event_change_xp.cpp.o:
+	cd /home/mikhail/OOP_lab/project/bin && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/game_lib.dir/build.make lib/CMakeFiles/game_lib.dir/event_change_xp.cpp.o
+.PHONY : event_change_xp.cpp.o
+
+event_change_xp.i: event_change_xp.cpp.i
+.PHONY : event_change_xp.i
+
+# target to preprocess a source file
+event_change_xp.cpp.i:
+	cd /home/mikhail/OOP_lab/project/bin && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/game_lib.dir/build.make lib/CMakeFiles/game_lib.dir/event_change_xp.cpp.i
+.PHONY : event_change_xp.cpp.i
+
+event_change_xp.s: event_change_xp.cpp.s
+.PHONY : event_change_xp.s
+
+# target to generate assembly for a file
+event_change_xp.cpp.s:
+	cd /home/mikhail/OOP_lab/project/bin && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/game_lib.dir/build.make lib/CMakeFiles/game_lib.dir/event_change_xp.cpp.s
+.PHONY : event_change_xp.cpp.s
+
+event_jump.o: event_jump.cpp.o
+.PHONY : event_jump.o
+
+# target to build an object file
+event_jump.cpp.o:
+	cd /home/mikhail/OOP_lab/project/bin && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/game_lib.dir/build.make lib/CMakeFiles/game_lib.dir/event_jump.cpp.o
+.PHONY : event_jump.cpp.o
+
+event_jump.i: event_jump.cpp.i
+.PHONY : event_jump.i
+
+# target to preprocess a source file
+event_jump.cpp.i:
+	cd /home/mikhail/OOP_lab/project/bin && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/game_lib.dir/build.make lib/CMakeFiles/game_lib.dir/event_jump.cpp.i
+.PHONY : event_jump.cpp.i
+
+event_jump.s: event_jump.cpp.s
+.PHONY : event_jump.s
+
+# target to generate assembly for a file
+event_jump.cpp.s:
+	cd /home/mikhail/OOP_lab/project/bin && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/game_lib.dir/build.make lib/CMakeFiles/game_lib.dir/event_jump.cpp.s
+.PHONY : event_jump.cpp.s
+
 field.o: field.cpp.o
 .PHONY : field.o
 
@@ -226,30 +298,6 @@ player.cpp.s:
 	cd /home/mikhail/OOP_lab/project/bin && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/game_lib.dir/build.make lib/CMakeFiles/game_lib.dir/player.cpp.s
 .PHONY : player.cpp.s
 
-tuple.o: tuple.cpp.o
-.PHONY : tuple.o
-
-# target to build an object file
-tuple.cpp.o:
-	cd /home/mikhail/OOP_lab/project/bin && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/game_lib.dir/build.make lib/CMakeFiles/game_lib.dir/tuple.cpp.o
-.PHONY : tuple.cpp.o
-
-tuple.i: tuple.cpp.i
-.PHONY : tuple.i
-
-# target to preprocess a source file
-tuple.cpp.i:
-	cd /home/mikhail/OOP_lab/project/bin && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/game_lib.dir/build.make lib/CMakeFiles/game_lib.dir/tuple.cpp.i
-.PHONY : tuple.cpp.i
-
-tuple.s: tuple.cpp.s
-.PHONY : tuple.s
-
-# target to generate assembly for a file
-tuple.cpp.s:
-	cd /home/mikhail/OOP_lab/project/bin && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/game_lib.dir/build.make lib/CMakeFiles/game_lib.dir/tuple.cpp.s
-.PHONY : tuple.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -262,6 +310,15 @@ help:
 	@echo "... cell.o"
 	@echo "... cell.i"
 	@echo "... cell.s"
+	@echo "... event_change_field.o"
+	@echo "... event_change_field.i"
+	@echo "... event_change_field.s"
+	@echo "... event_change_xp.o"
+	@echo "... event_change_xp.i"
+	@echo "... event_change_xp.s"
+	@echo "... event_jump.o"
+	@echo "... event_jump.i"
+	@echo "... event_jump.s"
 	@echo "... field.o"
 	@echo "... field.i"
 	@echo "... field.s"
@@ -271,9 +328,6 @@ help:
 	@echo "... player.o"
 	@echo "... player.i"
 	@echo "... player.s"
-	@echo "... tuple.o"
-	@echo "... tuple.i"
-	@echo "... tuple.s"
 .PHONY : help
 
 

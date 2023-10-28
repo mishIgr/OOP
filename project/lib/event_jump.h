@@ -3,21 +3,21 @@
 
 #include "event.h"
 #include "player.h"
-#include "tuple.h"
 
 class EventJump : public IEvent {
 
+    Player& player;
     unsigned jump_value;
     EventJump(const EventJump&);
 
 public:
 
-    EventJump();
+    EventJump(Player&, unsigned);
 
-    void set_event(unsigned);
-    void event(Player&);
+    void event();
 
-    EventJump* copy();
+    IEvent* copy();
+
 };
 
 #endif

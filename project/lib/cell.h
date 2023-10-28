@@ -24,6 +24,7 @@ public:
     void set_passability(bool);
     bool is_passability() const;
 
+    IEvent* get_event();
     void set_event(IEvent*);
 
 };

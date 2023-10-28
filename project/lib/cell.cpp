@@ -45,4 +45,11 @@ Cell& Cell::operator=(Cell&& other) {
 void Cell::set_passability(bool flag_possability) { this->flag_passability = flag_possability; }
 bool Cell::is_passability() const { return this->flag_passability; }
 
+IEvent* Cell::get_event() { return this->event; }
+
+void Cell::set_event(IEvent* event) {
+    delete this->event;
+    this->event = event;
+}
+
 #endif

@@ -69,24 +69,10 @@ include lib/CMakeFiles/game_lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include lib/CMakeFiles/game_lib.dir/flags.make
 
-lib/CMakeFiles/game_lib.dir/tuple.cpp.o: lib/CMakeFiles/game_lib.dir/flags.make
-lib/CMakeFiles/game_lib.dir/tuple.cpp.o: /home/mikhail/OOP_lab/project/lib/tuple.cpp
-lib/CMakeFiles/game_lib.dir/tuple.cpp.o: lib/CMakeFiles/game_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/OOP_lab/project/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/game_lib.dir/tuple.cpp.o"
-	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/game_lib.dir/tuple.cpp.o -MF CMakeFiles/game_lib.dir/tuple.cpp.o.d -o CMakeFiles/game_lib.dir/tuple.cpp.o -c /home/mikhail/OOP_lab/project/lib/tuple.cpp
-
-lib/CMakeFiles/game_lib.dir/tuple.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_lib.dir/tuple.cpp.i"
-	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/OOP_lab/project/lib/tuple.cpp > CMakeFiles/game_lib.dir/tuple.cpp.i
-
-lib/CMakeFiles/game_lib.dir/tuple.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_lib.dir/tuple.cpp.s"
-	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/OOP_lab/project/lib/tuple.cpp -o CMakeFiles/game_lib.dir/tuple.cpp.s
-
 lib/CMakeFiles/game_lib.dir/field.cpp.o: lib/CMakeFiles/game_lib.dir/flags.make
 lib/CMakeFiles/game_lib.dir/field.cpp.o: /home/mikhail/OOP_lab/project/lib/field.cpp
 lib/CMakeFiles/game_lib.dir/field.cpp.o: lib/CMakeFiles/game_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/OOP_lab/project/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/game_lib.dir/field.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/OOP_lab/project/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/game_lib.dir/field.cpp.o"
 	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/game_lib.dir/field.cpp.o -MF CMakeFiles/game_lib.dir/field.cpp.o.d -o CMakeFiles/game_lib.dir/field.cpp.o -c /home/mikhail/OOP_lab/project/lib/field.cpp
 
 lib/CMakeFiles/game_lib.dir/field.cpp.i: cmake_force
@@ -100,7 +86,7 @@ lib/CMakeFiles/game_lib.dir/field.cpp.s: cmake_force
 lib/CMakeFiles/game_lib.dir/cell.cpp.o: lib/CMakeFiles/game_lib.dir/flags.make
 lib/CMakeFiles/game_lib.dir/cell.cpp.o: /home/mikhail/OOP_lab/project/lib/cell.cpp
 lib/CMakeFiles/game_lib.dir/cell.cpp.o: lib/CMakeFiles/game_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/OOP_lab/project/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/game_lib.dir/cell.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/OOP_lab/project/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/game_lib.dir/cell.cpp.o"
 	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/game_lib.dir/cell.cpp.o -MF CMakeFiles/game_lib.dir/cell.cpp.o.d -o CMakeFiles/game_lib.dir/cell.cpp.o -c /home/mikhail/OOP_lab/project/lib/cell.cpp
 
 lib/CMakeFiles/game_lib.dir/cell.cpp.i: cmake_force
@@ -114,7 +100,7 @@ lib/CMakeFiles/game_lib.dir/cell.cpp.s: cmake_force
 lib/CMakeFiles/game_lib.dir/manage.cpp.o: lib/CMakeFiles/game_lib.dir/flags.make
 lib/CMakeFiles/game_lib.dir/manage.cpp.o: /home/mikhail/OOP_lab/project/lib/manage.cpp
 lib/CMakeFiles/game_lib.dir/manage.cpp.o: lib/CMakeFiles/game_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/OOP_lab/project/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/game_lib.dir/manage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/OOP_lab/project/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/game_lib.dir/manage.cpp.o"
 	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/game_lib.dir/manage.cpp.o -MF CMakeFiles/game_lib.dir/manage.cpp.o.d -o CMakeFiles/game_lib.dir/manage.cpp.o -c /home/mikhail/OOP_lab/project/lib/manage.cpp
 
 lib/CMakeFiles/game_lib.dir/manage.cpp.i: cmake_force
@@ -128,7 +114,7 @@ lib/CMakeFiles/game_lib.dir/manage.cpp.s: cmake_force
 lib/CMakeFiles/game_lib.dir/player.cpp.o: lib/CMakeFiles/game_lib.dir/flags.make
 lib/CMakeFiles/game_lib.dir/player.cpp.o: /home/mikhail/OOP_lab/project/lib/player.cpp
 lib/CMakeFiles/game_lib.dir/player.cpp.o: lib/CMakeFiles/game_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/OOP_lab/project/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CMakeFiles/game_lib.dir/player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/OOP_lab/project/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/CMakeFiles/game_lib.dir/player.cpp.o"
 	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/game_lib.dir/player.cpp.o -MF CMakeFiles/game_lib.dir/player.cpp.o.d -o CMakeFiles/game_lib.dir/player.cpp.o -c /home/mikhail/OOP_lab/project/lib/player.cpp
 
 lib/CMakeFiles/game_lib.dir/player.cpp.i: cmake_force
@@ -139,25 +125,71 @@ lib/CMakeFiles/game_lib.dir/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_lib.dir/player.cpp.s"
 	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/OOP_lab/project/lib/player.cpp -o CMakeFiles/game_lib.dir/player.cpp.s
 
+lib/CMakeFiles/game_lib.dir/event_change_field.cpp.o: lib/CMakeFiles/game_lib.dir/flags.make
+lib/CMakeFiles/game_lib.dir/event_change_field.cpp.o: /home/mikhail/OOP_lab/project/lib/event_change_field.cpp
+lib/CMakeFiles/game_lib.dir/event_change_field.cpp.o: lib/CMakeFiles/game_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/OOP_lab/project/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/CMakeFiles/game_lib.dir/event_change_field.cpp.o"
+	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/game_lib.dir/event_change_field.cpp.o -MF CMakeFiles/game_lib.dir/event_change_field.cpp.o.d -o CMakeFiles/game_lib.dir/event_change_field.cpp.o -c /home/mikhail/OOP_lab/project/lib/event_change_field.cpp
+
+lib/CMakeFiles/game_lib.dir/event_change_field.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_lib.dir/event_change_field.cpp.i"
+	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/OOP_lab/project/lib/event_change_field.cpp > CMakeFiles/game_lib.dir/event_change_field.cpp.i
+
+lib/CMakeFiles/game_lib.dir/event_change_field.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_lib.dir/event_change_field.cpp.s"
+	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/OOP_lab/project/lib/event_change_field.cpp -o CMakeFiles/game_lib.dir/event_change_field.cpp.s
+
+lib/CMakeFiles/game_lib.dir/event_jump.cpp.o: lib/CMakeFiles/game_lib.dir/flags.make
+lib/CMakeFiles/game_lib.dir/event_jump.cpp.o: /home/mikhail/OOP_lab/project/lib/event_jump.cpp
+lib/CMakeFiles/game_lib.dir/event_jump.cpp.o: lib/CMakeFiles/game_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/OOP_lab/project/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/CMakeFiles/game_lib.dir/event_jump.cpp.o"
+	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/game_lib.dir/event_jump.cpp.o -MF CMakeFiles/game_lib.dir/event_jump.cpp.o.d -o CMakeFiles/game_lib.dir/event_jump.cpp.o -c /home/mikhail/OOP_lab/project/lib/event_jump.cpp
+
+lib/CMakeFiles/game_lib.dir/event_jump.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_lib.dir/event_jump.cpp.i"
+	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/OOP_lab/project/lib/event_jump.cpp > CMakeFiles/game_lib.dir/event_jump.cpp.i
+
+lib/CMakeFiles/game_lib.dir/event_jump.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_lib.dir/event_jump.cpp.s"
+	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/OOP_lab/project/lib/event_jump.cpp -o CMakeFiles/game_lib.dir/event_jump.cpp.s
+
+lib/CMakeFiles/game_lib.dir/event_change_xp.cpp.o: lib/CMakeFiles/game_lib.dir/flags.make
+lib/CMakeFiles/game_lib.dir/event_change_xp.cpp.o: /home/mikhail/OOP_lab/project/lib/event_change_xp.cpp
+lib/CMakeFiles/game_lib.dir/event_change_xp.cpp.o: lib/CMakeFiles/game_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/OOP_lab/project/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/CMakeFiles/game_lib.dir/event_change_xp.cpp.o"
+	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/game_lib.dir/event_change_xp.cpp.o -MF CMakeFiles/game_lib.dir/event_change_xp.cpp.o.d -o CMakeFiles/game_lib.dir/event_change_xp.cpp.o -c /home/mikhail/OOP_lab/project/lib/event_change_xp.cpp
+
+lib/CMakeFiles/game_lib.dir/event_change_xp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_lib.dir/event_change_xp.cpp.i"
+	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/OOP_lab/project/lib/event_change_xp.cpp > CMakeFiles/game_lib.dir/event_change_xp.cpp.i
+
+lib/CMakeFiles/game_lib.dir/event_change_xp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_lib.dir/event_change_xp.cpp.s"
+	cd /home/mikhail/OOP_lab/project/bin/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/OOP_lab/project/lib/event_change_xp.cpp -o CMakeFiles/game_lib.dir/event_change_xp.cpp.s
+
 # Object files for target game_lib
 game_lib_OBJECTS = \
-"CMakeFiles/game_lib.dir/tuple.cpp.o" \
 "CMakeFiles/game_lib.dir/field.cpp.o" \
 "CMakeFiles/game_lib.dir/cell.cpp.o" \
 "CMakeFiles/game_lib.dir/manage.cpp.o" \
-"CMakeFiles/game_lib.dir/player.cpp.o"
+"CMakeFiles/game_lib.dir/player.cpp.o" \
+"CMakeFiles/game_lib.dir/event_change_field.cpp.o" \
+"CMakeFiles/game_lib.dir/event_jump.cpp.o" \
+"CMakeFiles/game_lib.dir/event_change_xp.cpp.o"
 
 # External object files for target game_lib
 game_lib_EXTERNAL_OBJECTS =
 
-lib/libgame_lib.a: lib/CMakeFiles/game_lib.dir/tuple.cpp.o
 lib/libgame_lib.a: lib/CMakeFiles/game_lib.dir/field.cpp.o
 lib/libgame_lib.a: lib/CMakeFiles/game_lib.dir/cell.cpp.o
 lib/libgame_lib.a: lib/CMakeFiles/game_lib.dir/manage.cpp.o
 lib/libgame_lib.a: lib/CMakeFiles/game_lib.dir/player.cpp.o
+lib/libgame_lib.a: lib/CMakeFiles/game_lib.dir/event_change_field.cpp.o
+lib/libgame_lib.a: lib/CMakeFiles/game_lib.dir/event_jump.cpp.o
+lib/libgame_lib.a: lib/CMakeFiles/game_lib.dir/event_change_xp.cpp.o
 lib/libgame_lib.a: lib/CMakeFiles/game_lib.dir/build.make
 lib/libgame_lib.a: lib/CMakeFiles/game_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikhail/OOP_lab/project/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libgame_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikhail/OOP_lab/project/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libgame_lib.a"
 	cd /home/mikhail/OOP_lab/project/bin/lib && $(CMAKE_COMMAND) -P CMakeFiles/game_lib.dir/cmake_clean_target.cmake
 	cd /home/mikhail/OOP_lab/project/bin/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game_lib.dir/link.txt --verbose=$(VERBOSE)
 

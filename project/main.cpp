@@ -3,8 +3,7 @@
 
 int main() {
     Player p;
-    Field f;
-    Manage m(p, f);
-    m.move(LEFT);
+    IEvent* e = new EventChangeXP(p, 1);
+    std::cout << typeid(*e).name() << std::endl;
     return 0;
 }

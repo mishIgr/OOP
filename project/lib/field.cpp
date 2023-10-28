@@ -66,13 +66,8 @@ Cell& Field::get_cell(unsigned y, unsigned x) const {
     return this->field[y][x];
 }
 
-Cell& Field::get_cell(Tuple<unsigned, 2> coord) const {
+Cell& Field::get_cell(Tuple<unsigned> coord) const {
     return this->field[coord[1]][coord[0]];
-}
-
-Tuple<unsigned, 2> Field::get_tuple(unsigned x, unsigned y) const {
-    Tuple<unsigned, 2> ret(x, y);
-    return ret;
 }
 
 #endif

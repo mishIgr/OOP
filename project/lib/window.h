@@ -8,6 +8,17 @@
 #include "SFML/Graphics.hpp"
 
 template<typename Window>
+concept WindowConcept = requires(Window window) {
+    {window.isOpen()};
+    {window.close()};
+    {window.clear()};
+    {window.display()};
+    {window.getSize()};
+    {window.getSize().x};
+    {window.getSize().y};
+};
+
+template<WindowConcept Window>
 class IWindow {
 public:
 

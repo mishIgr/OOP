@@ -30,7 +30,7 @@ public:
 };
 
 template <typename T>
-Tuple<T>::Tuple() : size(0), arr(nullptr) {}
+Tuple<T>::Tuple() : Tuple<T>( { 0, 0 } ) {}
 
 template <typename T>
 Tuple<T>::Tuple(std::initializer_list<T> arg) {
@@ -50,7 +50,7 @@ Tuple<T>::Tuple(const Tuple<T>& other) : size(other.size) {
 }
 
 template <typename T>
-Tuple<T>::Tuple(Tuple<T>&& other) {
+Tuple<T>::Tuple(Tuple<T>&& other) : size(0), arr(nullptr) {
     std::swap(this->arr, other.arr);
     std::swap(this->size, other.size);
 }
@@ -94,9 +94,8 @@ template <typename T>
 Tuple<T>& Tuple<T>::operator+=(const Tuple<T>& other) {
     if (this->size != other.size)
         throw std::logic_error("Size different.\n");
-    
-    for (size_t i = 0; i < other.size; ++i)
-        this->arr[i] = other.arr[i];
+
+    *this = *this + other;
     return *this;
 }
 

@@ -1,6 +1,0 @@
-/home/mikhail/OOP_lab/project/bin/CMakeFiles/main.dir
-/home/mikhail/OOP_lab/project/bin/CMakeFiles/edit_cache.dir
-/home/mikhail/OOP_lab/project/bin/CMakeFiles/rebuild_cache.dir
-/home/mikhail/OOP_lab/project/bin/lib/CMakeFiles/game_lib.dir
-/home/mikhail/OOP_lab/project/bin/lib/CMakeFiles/edit_cache.dir
-/home/mikhail/OOP_lab/project/bin/lib/CMakeFiles/rebuild_cache.dir

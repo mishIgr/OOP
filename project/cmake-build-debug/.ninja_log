@@ -1,0 +1,24 @@
+# ninja log v5
+7334	10358	1700329520422764921	CMakeFiles/project.dir/lib/options_menu.cpp.o	4f3019d087c879b7
+5898	7828	1700329517893992001	CMakeFiles/project.dir/lib/Player/manage.cpp.o	4851924a39a50641
+3161	5897	1700329515961401900	CMakeFiles/project.dir/lib/keyboard.cpp.o	8841e663ba4744f5
+4	1894	1700329511960181952	CMakeFiles/project.dir/lib/Field/Event/event_change_field.cpp.o	c3a1c746c41a5058
+9810	11134	1700329521203003561	CMakeFiles/project.dir/main.cpp.o	ebaf1eb86adeef9
+1481	2785	1700329512848452569	CMakeFiles/project.dir/lib/Field/Event/event_change_xp.cpp.o	6de62545827b4438
+1895	4568	1700329514632996615	CMakeFiles/project.dir/lib/file_manager.cpp.o	addb9635efb61b87
+8647	10390	1700329520458775934	CMakeFiles/project.dir/lib/options_menu_help.cpp.o	6d31e701f036e3af
+7828	9760	1700329519830583841	CMakeFiles/project.dir/lib/options_menu_change.cpp.o	1336d579d46e61ca
+8	68	1700399449500253389	build.ninja	79de1a4e54ba35e5
+11134	11410	1700329521475086804	project	ef2c2ee18f6167da
+2787	4485	1700329514552972209	CMakeFiles/project.dir/lib/game.cpp.o	97790bd0b1e19d19
+4568	7333	1700329517397840465	CMakeFiles/project.dir/lib/keyboard_transform.cpp.o	d684a1c32a400403
+6082	8647	1700329518714242622	CMakeFiles/project.dir/lib/menu.cpp.o	c8a75ff68ffd1d0f
+9761	9809	1700329519878598518	CMakeFiles/project.dir/lib/Player/player.cpp.o	37f7b83e05410952
+1497	3159	1700329513224567192	CMakeFiles/project.dir/lib/Field/field.cpp.o	426f53fe68dc0535
+3	1479	1700329511544055243	CMakeFiles/project.dir/lib/Field/cell.cpp.o	79e3cffe7add7ed7
+4	1496	1700329511560060116	CMakeFiles/project.dir/lib/Field/Event/event_jump.cpp.o	c5c67bbb36bf142e
+4485	6082	1700329516149459303	CMakeFiles/project.dir/lib/Field/Event/generate_event.cpp.o	a70ffb59d1d25bb
+2	1892	1700402308426327511	CMakeFiles/project.dir/lib/File_manager/file_manager.cpp.o	f9d9b255c260afd2
+4	2318	1700402308850529019	CMakeFiles/project.dir/main.cpp.o	ebaf1eb86adeef9
+3	2595	1700402309130662091	CMakeFiles/project.dir/lib/keyboard_transform.cpp.o	d684a1c32a400403
+1893	3601	1700402310135139247	CMakeFiles/project.dir/lib/sfml_reader.cpp.o	1f1d84d88e8f92c0

@@ -8,15 +8,22 @@
 #include "window.h"
 #include "SFML/Graphics.hpp"
 
-class SFMLWindow : public IWindow<sf::RenderWindow> {
+class SFMLWindow : public IWindow {
 
     sf::RenderWindow& window;
 
 public:
 
     SFMLWindow(sf::RenderWindow&);
-
-    sf::RenderWindow& get_window();
+    bool is_open();
+    void close();
+    void clear();
+    void display();
+    Vector2U get_size();
+    std::vector<Key> poll_event();
+    void draw_texts(std::vector<std::string>, std::string, unsigned, unsigned);
+    void draw_texts(std::vector<std::string>, std::string, unsigned, unsigned, std::pair<std::pair<float, float>, std::pair<float, float>>);
+    void draw_sprite(std::string, std::pair<float, float>);
 
 };
 

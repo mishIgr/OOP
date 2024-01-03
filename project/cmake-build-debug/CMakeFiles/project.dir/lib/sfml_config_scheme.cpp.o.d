@@ -244,10 +244,10 @@ CMakeFiles/project.dir/lib/sfml_config_scheme.cpp.o: \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
  /home/mikhail/OOP_lab/project/lib/File_manager/file_manager.h \
- /home/mikhail/OOP_lab/project/lib/Player/manage.h \
- /home/mikhail/OOP_lab/project/lib/Player/player.h \
- /home/mikhail/OOP_lab/project/lib/Field/field.h \
- /home/mikhail/OOP_lab/project/lib/Field/cell.h \
- /home/mikhail/OOP_lab/project/lib/Field/Event/event.h \
+ /home/mikhail/OOP_lab/project/lib/Object/Player/manage.h \
+ /home/mikhail/OOP_lab/project/lib/Object/Player/player.h \
+ /home/mikhail/OOP_lab/project/lib/Object/Field/field.h \
+ /home/mikhail/OOP_lab/project/lib/Object/Field/cell.h \
+ /home/mikhail/OOP_lab/project/lib/Object/Field/Event/event.h \
  /home/mikhail/OOP_lab/project/lib/tuple.h /usr/include/c++/12/iostream \
  /usr/include/c++/12/istream /usr/include/c++/12/bits/istream.tcc

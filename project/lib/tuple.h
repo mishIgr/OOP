@@ -23,7 +23,9 @@ public:
     Tuple<T>& operator=(const Tuple<T>&);
     Tuple<T>& operator=(Tuple<T>&&);
     Tuple<T> operator+(const Tuple<T>&);
+    Tuple<T> operator-(const Tuple<T>&);
     Tuple<T>& operator+=(const Tuple<T>&);
+    Tuple<T>& operator-=(const Tuple<T>&);
     T& operator[](size_t);
 
     size_t get_size();
@@ -91,11 +93,31 @@ Tuple<T> Tuple<T>::operator+(const Tuple<T>& other) {
 }
 
 template <typename T>
+Tuple<T> Tuple<T>::operator-(const Tuple<T>& other) {
+    if (this->size != other.size)
+        throw std::logic_error("Size different.\n");
+
+    Tuple<T> sub_tuple(other);
+    for (unsigned i = 0; i < other.size; ++i)
+        sub_tuple.arr[i] -= this->arr[i];
+    return sub_tuple;
+}
+
+template <typename T>
 Tuple<T>& Tuple<T>::operator+=(const Tuple<T>& other) {
     if (this->size != other.size)
         throw std::logic_error("Size different.\n");
 
     *this = *this + other;
+    return *this;
+}
+
+template <typename T>
+Tuple<T>& Tuple<T>::operator-=(const Tuple<T>& other) {
+    if (this->size != other.size)
+        throw std::logic_error("Size different.\n");
+
+    *this = *this - other;
     return *this;
 }
 

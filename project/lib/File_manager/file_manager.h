@@ -2,16 +2,14 @@
 #define file_manager_h
 
 #include <string>
-#include "Player/manage.h"
+#include "Object/game_object.h"
 
 
 class FileMahager {
 
 public:
 
-    bool write_bin(const std::string&, Field&, Player&, Manage&);
-
-    bool read_bin(const std::string&, Field&, Player&, Manage&);
+    bool write_bin(const std::string&, GameObject&);
 
     bool write_bin(const std::string&, std::string);
 
